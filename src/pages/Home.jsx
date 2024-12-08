@@ -24,7 +24,7 @@ export default function Home() {
 
   return (
     <div className="home-container">
-      <h1 className="page-title">Crypto Dashboard</h1>
+      {/* <h1 className="page-title">Crypto Dashboard</h1> */}
       <SearchBar searchTerm={searchTerm} handleSearch={setSearchTerm} />
       {selectedCryptoId ? (
         <CryptoDetails

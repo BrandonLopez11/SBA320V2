@@ -4,7 +4,7 @@ import "../styles.css";
 export default function CryptoList({ cryptos, onSelectCrypto }) {
   return (
     <div className="crypto-list-container">
-      <h3>Cryptocurrencies</h3>
+      <h3>Top 10 Crypto Currencies</h3>
       <table className="crypto-table">
         <thead>
           <tr>

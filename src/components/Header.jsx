@@ -7,9 +7,7 @@ const Header = () => {
       <h1 className="page-title">Crypto Dashboard</h1>
       <nav>
         <ul className="nav-links">
-          <li>
             <a href="/">Home</a>
-          </li>
         </ul>
       </nav>
     </header>
